@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,27 +12,33 @@
 </head>
 <body>
   <nav class="Navbar">
-    <div class="nav-signin">
-      <ul class="nav-ul">
-        <li><a href="#"><i class="fa fa-facebook"></a></i></li>
-        <li><a href="#"><i class="fa fa-twitter"></a></i></li>
-        <li><a href="#">Logout</a></li>
-        <li><a href="#">Mypage</a></li>
-        <li><a href="#">Korean</a></li>
+    <div class="nav-signin bg-dark d-flex hideOnMobile-f">
+      <ul class="nav-ul d-right gap-close">
+        <li><a href="#" class="fs-medium"><i class="fa fa-facebook fc-white fs-medium"></a></i></li>
+        <li><a href="#" class="fs-medium"><i class="fa fa-twitter fc-white fs-medium"></a></i></li>
+        <li><a href="#" class="fc-white fs-small no-style">Logout</a></li>
+        <li><a href="#" class="fc-white fs-small no-style">Mypage</a></li>
+        <li><a href="#" class="fc-white fs-small no-style">Korean</a></li>
       </ul>
     </div>
-    <div class="nav-links">
+    <div class="nav-items d-flex align-center">
+      <button type="button" id="Menu-button">
+        <span class="bar bg-dark"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
       <div class="nav-brand">
-        <span>My Logo</span>
+        <p class="hideOnMobile-f">My Logo</p>
       </div>
-      <div class="nav-items">
-        <ul class="nav-ul">
-          <li><a href="#">About</a></li>
-          <li><a href="#">Program</a></li>
-          <li><a href="#">Join</a></li>
-          <li><a href="#">Sponsor</a></li>
-          <li><a href="#">News</a></li>
-          <li><a href="#">CC Campaign</a></li>
+      <div class="nav-links d-right">
+        <ul class="nav-ul gap-wide" id="Mobile-Menu">
+          <li class='d-right'><a href="#" class="hideOnDesktop-I no-style fc-dark" id="close-menu">&times;</a></li>
+          <li><a class="fc-dark fs-medium fc-dark no-style" href="#">About</a></li>
+          <li><a class="fc-dark fs-medium fc-dark no-style" href="#">Program</a></li>
+          <li><a class="fc-dark fs-medium fc-dark no-style" href="#">Join</a></li>
+          <li><a class="fc-dark fs-medium fc-dark no-style" href="#">Sponsor</a></li>
+          <li><a class="fc-dark fs-medium fc-dark no-style" href="#">News</a></li>
+          <li><a class="fc-orange fs-medium padded-border no-style" href="#">CC Campaign</a></li>
         </ul>
       </div>
     </div>

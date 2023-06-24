@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+  padding: 2% 2%;
+}
+
+#Menu-button {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: none;
+
+}
+
+.bar {
+  width: 30px;
+  border: solid;
+}
+
+#Mobile-Menu {
+  position: fixed;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  background-color: #d3d3d3;
+  font-size: 48px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10% 5%;
+  margin: 0;
+  display: none;
+}
+
+#close-menu {
+  font-weight: bolder;
+  font-size: 78px;
+  padding: 0;
+}
+
+.display-none {
+  display: none;
+}
+
+.d-right {
+  margin-left: auto;
+}
+
+.no-style {
+  text-decoration: none;
+}
+
+.hideOnDesktop-I {
+  display: inline;
+}
+
+.hideOnMobile-f {
+  display: none;
+}
+
+.bg-dark {
+  background-color: #272A31;
+}
+
+.fc-white {
+  color: white;
+}
+
+.fc-dark {
+  color: #272A31;
+}
+
+.fc-orange {
+  color: #ec5242;
+}
+
+@media only screen and (min-width: 768px) {
+  .nav-signin {
+    padding-right: 20%;
+
+  }
+
+  .nav-ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+
+  .gap-close {
+    gap: 1.2vw;
+  }
+
+  .gap-wide {
+    gap: 3vw;
+  }
+
+  .nav-ul a{
+    font-family: 'lato', sans-serif;
+  }
+
+  .fs-small {
+    font-size: medium;
+  }
+
+  .fs-medium {
+    font-size: large;
+  }
+
+  .nav-items {
+    display: flex;
+    align-items: center;
+    padding: 1% 8%;
+    background-color: white;
+    border-bottom: solid #d3d3d3;
+  }
+
+  .hideOnDesktop-I {
+    display: none;
+  }
+
+  .hideOnMobile-f {
+    display: flex;
+  }
+
+  .padded-border {
+    border: solid 3px;
+    padding: 10px;
+  }
+
+  .nav-links ul li a{
+    font-weight: 500;
+  }
+
+  #Mobile-Menu {
+    position: static;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    background: none;
+    font-size: large;
+    align-items: center;
+    padding:0;
+    margin: 0;
+  }
+
+  #Menu-button {
+    display: none;
+  }
+
+}
