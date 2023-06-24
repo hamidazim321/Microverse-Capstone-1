@@ -13,7 +13,7 @@
 <body>
   <nav class="Navbar">
     <div class="nav-signin bg-dark d-flex hideOnMobile-f">
-      <ul class="nav-ul d-right gap-close">
+      <ul class="nav-ul gap-close">
         <li><a href="#" class="fs-medium"><i class="fa fa-facebook fc-white fs-medium"></a></i></li>
         <li><a href="#" class="fs-medium"><i class="fa fa-twitter fc-white fs-medium"></a></i></li>
         <li><a href="#" class="fc-white fs-small no-style">Logout</a></li>
@@ -23,15 +23,15 @@
     </div>
     <div class="nav-items d-flex align-center">
       <button type="button" id="Menu-button">
-        <span class="bar bg-dark"></span>
+        <span class="bar"></span>
         <span class="bar"></span>
         <span class="bar"></span>
       </button>
       <div class="nav-brand">
         <p class="hideOnMobile-f">My Logo</p>
       </div>
-      <div class="nav-links d-right">
-        <ul class="nav-ul gap-wide" id="Mobile-Menu">
+      <div class="nav-links d-right" id="nav-options">
+        <ul class="nav-ul Mobile-Menu gap-wide display-none" id="mobile-Menu">
           <li class='d-right'><a href="#" class="hideOnDesktop-I no-style fc-dark" id="close-menu">&times;</a></li>
           <li><a class="fc-dark fs-medium fc-dark no-style" href="#">About</a></li>
           <li><a class="fc-dark fs-medium fc-dark no-style" href="#">Program</a></li>
@@ -43,5 +43,8 @@
       </div>
     </div>
   </nav>
+
+
+  <script src="script.js" type="module"></script>
 </body>
 </html>

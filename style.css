@@ -29,7 +29,7 @@ body {
   border: solid;
 }
 
-#Mobile-Menu {
+.Mobile-Menu {
   position: fixed;
   list-style: none;
   display: flex;
@@ -42,10 +42,9 @@ body {
   background-color: #d3d3d3;
   font-size: 48px;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 10% 5%;
   margin: 0;
-  display: none;
 }
 
 #close-menu {
@@ -92,8 +91,11 @@ body {
 
 @media only screen and (min-width: 768px) {
   .nav-signin {
-    padding-right: 20%;
+    padding: 0 20% 0 0;
+  }
 
+  .nav-signin ul {
+    margin: 2px 0 2px auto;
   }
 
   .nav-ul {
@@ -147,7 +149,7 @@ body {
     font-weight: 500;
   }
 
-  #Mobile-Menu {
+  .Mobile-Menu {
     position: static;
     list-style: none;
     display: flex;
