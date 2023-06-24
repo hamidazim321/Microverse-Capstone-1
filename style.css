@@ -21,7 +21,6 @@ body {
   justify-content: center;
   border: none;
   background: none;
-
 }
 
 .bar {
@@ -74,7 +73,7 @@ body {
 }
 
 .bg-dark {
-  background-color: #272A31;
+  background-color: #272a31;
 }
 
 .fc-white {
@@ -82,7 +81,7 @@ body {
 }
 
 .fc-dark {
-  color: #272A31;
+  color: #272a31;
 }
 
 .fc-orange {
@@ -112,7 +111,7 @@ body {
     gap: 3vw;
   }
 
-  .nav-ul a{
+  .nav-ul a {
     font-family: 'lato', sans-serif;
   }
 
@@ -145,7 +144,7 @@ body {
     padding: 10px;
   }
 
-  .nav-links ul li a{
+  .nav-links ul li a {
     font-weight: 500;
   }
 
@@ -157,12 +156,11 @@ body {
     background: none;
     font-size: large;
     align-items: center;
-    padding:0;
+    padding: 0;
     margin: 0;
   }
 
   #Menu-button {
     display: none;
   }
-
 }
