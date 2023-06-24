@@ -2,9 +2,19 @@
   box-sizing: border-box;
 }
 
+p, h1, h2, h3, a, article {
+  font-family: 'lato', sans-serif;
+}
+
 body {
   padding: 0;
   margin: 0;
+}
+
+.Navbar {
+  width: 100%;
+  background: transparent;
+  position: absolute;
 }
 
 .nav-items {
@@ -88,6 +98,45 @@ body {
   color: #ec5242;
 }
 
+.Headline {
+  padding: 15% 5%;
+}
+
+.Headline article {
+  border: solid white;
+  padding: 4%;
+  font-size: 4vw;
+}
+
+.h1-mobile {
+  font-size: 10vw;
+}
+
+.h2-mobile {
+  font-size: 4vw;
+}
+
+.Headline h1 {
+  margin-top: 0;
+}
+
+.Headline h2 {
+  margin-bottom: 0;
+}
+
+.Headline p {
+  margin-bottom: 0;
+  font-size: 5vw;
+}
+
+.location {
+  margin-top: 0;
+}
+
+.bg-light {
+  background-color: #d3d3d3;
+}
+
 @media only screen and (min-width: 768px) {
   .nav-signin {
     padding: 0 20% 0 0;
@@ -162,5 +211,9 @@ body {
 
   #Menu-button {
     display: none;
+  }
+
+  .Navbar {
+    position: fixed;
   }
 }
