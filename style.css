@@ -2,7 +2,12 @@
   box-sizing: border-box;
 }
 
-p, h1, h2, h3, a, article {
+p,
+h1,
+h2,
+h3,
+a,
+article {
   font-family: 'lato', sans-serif;
 }
 
