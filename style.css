@@ -177,6 +177,13 @@ body {
   background-color: #353a44;
 }
 
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2vh;
+}
+
 .card-header {
   width: 20%;
 }
@@ -342,7 +349,7 @@ body {
     align-items: center;
     background-color: #272a31;
     gap: 2vh;
-    padding: 2%;
+    padding: 5%;
   }
   
   .main-program-title {
@@ -359,38 +366,52 @@ body {
     display: block;
     opacity: 50%;
   }
-  
-  .card {
+
+  .cards {
     display: flex;
     flex-direction: row;
     align-items: center;
+    gap: 1%;
+    margin: 0 10%;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: space-evenly;
-    padding: 4%;
+    padding: 2%;
     background-color: #353a44;
   }
   
   .card-header {
-    width: 20%;
+    width: fit-content;
   }
   
   .card-title {
-    width: 20%;
+    width: fit-content;
   }
   
   .card-title span {
     font-family: 'lato', sans-serif;
+    font-size: 2vw;
     font-weight: 600;
   }
   
   .card-body {
-    width: 50%;
+    width: fit-content;
     padding: 0;
   }
   
   .card-content {
-    font-size: 3vw;
-    color: white;
+    font-size: 1.2vw;
     margin: 0;
+    text-align: center;
+  }
+
+  .main-program-link {
+    margin-top: 5%;
+    opacity: 70%;
   }
   
 }
