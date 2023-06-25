@@ -77,7 +77,7 @@ const speakersContainer = `<div class="speaker">
 </div>
 </div>`;
 
-let counter = Guests.length-1;
+let counter = Guests.length - 1;
 const MoreButton = mainContainer.querySelector('.See-more');
 
 function LoadGuestsMobile() {
@@ -111,7 +111,7 @@ function LoadMore() {
 }
 
 function LoadGuestsDesktop() {
-  for (let count = 0; count < Guests.length/ 2; count += 1) {
+  for (let count = 0; count < Guests.length / 2; count += 1) {
     LoadGuestsMobile();
   }
 }

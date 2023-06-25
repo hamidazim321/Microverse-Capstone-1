@@ -116,18 +116,18 @@ body {
   background-size: cover;
 }
 
-
 .Headline-title {
   font-family: 'Cocogoose Pro Letterpress', sans-serif;
   color: rgb(153, 17, 17);
 }
 
-.Headline article, .About-Headline article {
+.Headline article,
+.About-Headline article {
   padding: 4%;
   font-size: 3vw;
   color: white;
   font-weight: 600;
-  background-color:rgba(151, 5, 151, 0.5);
+  background-color: rgba(151, 5, 151, 0.5);
 }
 
 .h1-mobile {
@@ -163,6 +163,7 @@ body {
 .h3 {
   font-size: xx-large;
 }
+
 .main-program {
   display: flex;
   flex-direction: column;
@@ -203,7 +204,6 @@ body {
   background-color: rgba(53, 58, 68, 0.3);
   width: 100%;
 }
-
 
 .card-header {
   width: 20%;
@@ -301,15 +301,13 @@ body {
   margin: 0;
   font-size: 4vh;
 }
+
 .speaker-title {
   margin: 0;
   display: flex;
   flex-direction: column;
   font-size: 3.2vh;
   gap: 5px;
-}
-
-.speaker-title {
   color: #ec5242;
 }
 
@@ -355,7 +353,7 @@ body {
 }
 
 .partners-logos img {
-  width: 20%
+  width: 20%;
 }
 
 .Home-footer {
@@ -428,12 +426,11 @@ body {
   width: 100%;
 }
 
-
 @media only screen and (min-width: 768px) {
-
   .logo {
     width: 40px;
   }
+
   .nav-signin {
     padding: 0 20% 0 0;
   }
@@ -462,42 +459,42 @@ body {
     font-family: 'Cocogoose Pro Letterpress', sans-serif;
     color: rgb(153, 17, 17);
   }
-  
+
   .Headline article {
     padding: 4%;
     font-size: 1.8vw;
     width: 70%;
     color: white;
     font-weight: 600;
-    background-color:rgba(151, 5, 151, 0.5);
+    background-color: rgba(151, 5, 151, 0.5);
   }
-  
+
   .h1-mobile {
     font-size: 7vw;
   }
-  
+
   .h2-mobile {
     font-size: 3vw;
   }
-  
+
   .Headline h1 {
     margin-top: 0;
   }
-  
+
   .Headline h2 {
     margin-bottom: 0;
   }
-  
+
   #location {
     margin-top: 2px;
     font-size: 2vw;
   }
-  
+
   .Headline p {
     margin-bottom: 0;
     font-size: 5vw;
   }
-  
+
   .bg-light {
     background-color: #d3d3d3;
   }
@@ -543,6 +540,10 @@ body {
     padding: 10px;
   }
 
+  .About-Headline a {
+    font-size: 1.8vw;
+  }
+
   .nav-links ul li a {
     font-weight: 500;
   }
@@ -576,14 +577,14 @@ body {
     gap: 2vh;
     padding: 5%;
   }
-  
+
   .main-program-title {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
   }
-  
+
   .main-program-title-underline {
     background-color: #ec5242;
     width: 30%;
@@ -598,7 +599,7 @@ body {
     gap: 1%;
     margin: 0;
   }
-  
+
   .card {
     display: flex;
     flex-direction: column;
@@ -608,7 +609,7 @@ body {
     width: 25%;
     height: 200px;
   }
-  
+
   .card-header {
     width: fit-content;
     height: 20%;
@@ -618,7 +619,7 @@ body {
   .card-header img {
     height: 60px;
   }
-  
+
   .card-title {
     width: fit-content;
     height: 20%;
@@ -626,19 +627,19 @@ body {
     flex-direction: column;
     justify-content: center;
   }
-  
+
   .card-title span {
     font-family: 'lato', sans-serif;
     font-size: 1.3vw;
     font-weight: 500;
   }
-  
+
   .card-body {
     width: fit-content;
     padding: 0;
     height: 60%;
   }
-  
+
   .card-content {
     font-size: 1.2vw;
     margin: 0;
@@ -655,7 +656,7 @@ body {
     gap: 2vh;
     padding: 2% 5%;
   }
-  
+
   .Featured-Speakers-title {
     display: flex;
     flex-direction: column;
@@ -667,16 +668,15 @@ body {
     display: flex;
     flex-direction: row;
     gap: 20px;
-
   }
-  
+
   .speaker {
     display: flex;
     flex-direction: row;
     gap: 1vw;
     width: 50%;
   }
-  
+
   .speaker-header {
     height: 120px;
     width: 120px;
@@ -688,7 +688,7 @@ body {
     width: 90%;
     margin-top: auto;
   }
-  
+
   .speaker-body {
     width: 70%;
     display: flex;
@@ -696,11 +696,12 @@ body {
     justify-content: space-between;
     padding: 10px 0 0 0;
   }
-  
+
   .speaker-name {
     margin: 0;
     font-size: 2.3vw;
   }
+
   .speaker-title {
     margin: 0;
     display: flex;
@@ -708,19 +709,19 @@ body {
     gap: 5px;
     font-size: 2.8vh;
   }
-  
+
   .speaker-status {
     margin: 0;
     font-size: 2.8vh;
   }
-  
+
   .speaker-divider {
     background-color: #d3d3d3;
     width: 10%;
     padding: 1px;
     display: block;
   }
-  
+
   .partners-logos {
     margin-top: 50px;
   }
@@ -743,11 +744,7 @@ body {
     font-size: 1.8vw;
     color: white;
     font-weight: 600;
-    background-color:rgba(151, 5, 151, 0.5);
-  }
-
-  .About-Headline a {
-    font-size: 1.8vw;
+    background-color: rgba(151, 5, 151, 0.5);
   }
 
   .winner-cars {
@@ -756,9 +753,8 @@ body {
     flex-direction: row;
     align-items: center;
   }
-  
+
   .winner-cars img {
     width: 47%;
   }
-  
 }
