@@ -97,7 +97,7 @@ function LoadGuestsMobile() {
     title.textContent = Guests[counter].title;
     status.textContent = Guests[counter].specialty;
     name.textContent = Guests[counter].name;
-    counter = 1;
+    counter -= 1;
   });
   mainContainer.insertBefore(format, MoreButton);
   if (counter < 0) {
