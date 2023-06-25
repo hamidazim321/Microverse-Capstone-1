@@ -25,7 +25,7 @@ body {
 .Navbar {
   width: 100%;
   background: transparent;
-  position: absolute;
+  position: fixed;
 }
 
 .nav-items {
@@ -46,7 +46,7 @@ body {
 
 .bar {
   width: 30px;
-  border: solid;
+  border: solid #272a31;
 }
 
 .Mobile-Menu {
@@ -60,16 +60,16 @@ body {
   right: 0;
   z-index: 2;
   background-color: #d3d3d3;
-  font-size: 48px;
+  font-size: 32px;
   align-items: center;
   justify-content: space-around;
-  padding: 10% 5%;
+  padding: 5% 5%;
   margin: 0;
 }
 
 #close-menu {
   font-weight: bolder;
-  font-size: 78px;
+  font-size: 50px;
   padding: 0;
 }
 
@@ -333,7 +333,44 @@ body {
   border: #d3d3d3 solid 2px;
   font-size: large;
   font-weight: 600;
+}
 
+.partners {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3% 5%;
+}
+
+.partners-title {
+  margin: 0;
+  opacity: 50%;
+}
+
+.partners-logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.Home-footer {
+  display: flex;
+  align-items: center;
+  padding: 3% 5%;
+  gap: 10px;
+}
+
+.host span {
+  font-family: 'Cocogoose Pro Letterpress', sans-serif;
+  font-size: 4vw;
+}
+
+.host-title span {
+  font-size: 3vw;
+  font-weight: 600;
+  font-family: 'lato', sans-serif;
 }
 
 
@@ -631,5 +668,8 @@ body {
     display: block;
   }
   
+  .partners-logos {
+    margin-top: 50px;
+  }
   
 }
