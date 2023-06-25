@@ -160,6 +160,9 @@ body {
   background-color: #d3d3d3;
 }
 
+.h3 {
+  font-size: xx-large;
+}
 .main-program {
   display: flex;
   flex-direction: column;
@@ -177,9 +180,9 @@ body {
   gap: 10px;
 }
 
-.main-program-title-underline {
+.title-underline {
   background-color: #ec5242;
-  width: 30%;
+  width: 50px;
   padding: 1px;
   display: block;
   opacity: 50%;
@@ -242,6 +245,93 @@ body {
   font-family: 'lato', sans-serif;
   font-size: 4vw;
 }
+
+.Featured-Speakers {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  padding: 2%;
+}
+
+.Featured-Speakers-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.speakersContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.speaker {
+  display: flex;
+  flex-direction: row;
+  gap: 1vw;
+}
+
+.speaker-header {
+  height: 150px;
+  width: 150px;
+  overflow: hidden;
+  display: flex;
+  background-image: url('Images/chess.jpg');
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+
+.speaker-img {
+  height: 90%;
+  width: 90%;
+  margin-top: auto;
+  margin-left: auto;
+}
+
+.speaker-body {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 0 0 0;
+}
+
+.speaker-name {
+  margin: 0;
+  font-size: 4vh;
+}
+.speaker-title {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-size: 3.2vh;
+  gap: 5px;
+}
+
+.speaker-status {
+  margin: 0;
+  font-size: 3.2vh;
+}
+
+.speaker-divider {
+  background-color: #d3d3d3;
+  width: 20%;
+  padding: 1px;
+  display: block;
+}
+
+.See-more {
+  padding: 2%;
+  font-family: 'lato', sans-serif;
+  background: none;
+  border: #d3d3d3 solid 2px;
+  font-size: large;
+  font-weight: 600;
+
+}
+
 
 @media only screen and (min-width: 768px) {
 
@@ -379,6 +469,7 @@ body {
 
   .Navbar {
     position: fixed;
+    z-index: 2;
   }
 
   .main-program {
@@ -410,7 +501,7 @@ body {
     flex-direction: row;
     align-items: center;
     gap: 1%;
-    margin: 0 10%;
+    margin: 0;
   }
   
   .card {
@@ -463,5 +554,78 @@ body {
     margin-top: 5%;
     opacity: 70%;
   }
+
+  .Featured-Speakers {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    padding: 2% 5%;
+  }
+  
+  .Featured-Speakers-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .speakersContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+  }
+  
+  .speaker {
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    width: 50%;
+  }
+  
+  .speaker-header {
+    height: 120px;
+    width: 120px;
+    display: flex;
+  }
+
+  .speaker-img {
+    height: 90%;
+    width: 90%;
+    margin-top: auto;
+  }
+  
+  .speaker-body {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 0 0 0;
+  }
+  
+  .speaker-name {
+    margin: 0;
+    font-size: 2.3vw;
+  }
+  .speaker-title {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 2.8vh;
+  }
+  
+  .speaker-status {
+    margin: 0;
+    font-size: 2.8vh;
+  }
+  
+  .speaker-divider {
+    background-color: #d3d3d3;
+    width: 10%;
+    padding: 1px;
+    display: block;
+  }
+  
   
 }
