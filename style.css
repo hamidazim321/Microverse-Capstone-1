@@ -119,6 +119,8 @@ body {
 .Headline-title {
   font-family: 'Cocogoose Pro Letterpress', sans-serif;
   color: rgb(153, 17, 17);
+  margin-bottom: 0;
+  font-size: 5vw;
 }
 
 .Headline article,
@@ -390,6 +392,7 @@ body {
 .About-Headline-title {
   font-family: 'Cocogoose Pro Letterpress', sans-serif;
   color: rgb(153, 17, 17);
+  margin-top: 0;
 }
 
 .CC-summit {
@@ -418,7 +421,7 @@ body {
 .winner-cars {
   display: flex;
   flex-direction: column;
-  gap: 5%;
+  gap: 30px;
   justify-content: center;
 }
 
@@ -453,11 +456,6 @@ body {
     background-image: url('Images/car-desktop\ \(2\).jpg');
     background-repeat: no-repeat;
     background-size: cover;
-  }
-
-  .Headline-title {
-    font-family: 'Cocogoose Pro Letterpress', sans-serif;
-    color: rgb(153, 17, 17);
   }
 
   .Headline article {
@@ -746,6 +744,30 @@ body {
     font-weight: 600;
     background-color: rgba(151, 5, 151, 0.5);
   }
+
+  .CC-summit {
+    padding: 5% 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: #d3d3d3 solid 3px;
+  }
+  
+  .CC-summit h1 {
+    font-size: 4vw;
+    text-align: center;
+  }
+  
+  .CC-summit p {
+    font-size: 2vw;
+    text-align: center;
+    font-weight: 500;
+  }
+  
+  .CC-summit img {
+    width: 50%;
+  }
+  
 
   .winner-cars {
     display: flex;
