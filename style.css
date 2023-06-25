@@ -106,6 +106,9 @@ body {
 
 .Headline {
   padding: 15% 5%;
+  background-image: url('Images/car-mobile.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .Headline article {
@@ -220,6 +223,10 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
+
+  .logo {
+    width: 40px;
+  }
   .nav-signin {
     padding: 0 20% 0 0;
   }
@@ -239,6 +246,9 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-image: url('Images/car-desktop\ \(2\).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   .Headline article {
