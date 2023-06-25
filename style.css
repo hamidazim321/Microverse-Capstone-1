@@ -58,7 +58,7 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  z-index: 2;
+  z-index: 4;
   background-color: #d3d3d3;
   font-size: 32px;
   align-items: center;
@@ -185,7 +185,6 @@ body {
   width: 50px;
   padding: 1px;
   display: block;
-  opacity: 50%;
 }
 
 .cards {
@@ -345,7 +344,6 @@ body {
 
 .partners-title {
   margin: 0;
-  opacity: 50%;
 }
 
 .partners-logos {
@@ -363,12 +361,12 @@ body {
 .Home-footer {
   display: flex;
   align-items: center;
-  padding: 3% 5%;
+  padding: 3% 15%;
   gap: 50px;
 }
 
 .host {
-  width: 40%;
+  width: 30%;
 }
 
 .host img {
@@ -397,10 +395,37 @@ body {
 }
 
 .CC-summit {
-  padding: 5% 5%;
+  padding: 5% 15%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-bottom: #d3d3d3 solid 3px;
+}
+
+.CC-summit h1 {
+  font-size: 7vw;
+  text-align: center;
+}
+
+.CC-summit p {
+  font-size: 3vw;
+  text-align: center;
+  font-weight: 500;
+}
+
+.CC-summit img {
+  width: 80%;
+}
+
+.winner-cars {
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
+  justify-content: center;
+}
+
+.winner-cars img {
+  width: 100%;
 }
 
 
@@ -564,7 +589,6 @@ body {
     width: 30%;
     padding: 1px;
     display: block;
-    opacity: 50%;
   }
 
   .cards {
@@ -623,7 +647,6 @@ body {
 
   .main-program-link {
     margin-top: 5%;
-    opacity: 70%;
   }
 
   .Featured-Speakers {
@@ -709,6 +732,12 @@ body {
     background-size: cover;
   }
 
+  .About-Headline-title {
+    font-family: 'Cocogoose Pro Letterpress', sans-serif;
+    color: rgb(153, 17, 17);
+    text-align: center;
+  }
+
   .About-Headline article {
     padding: 4%;
     font-size: 1.8vw;
@@ -719,6 +748,17 @@ body {
 
   .About-Headline a {
     font-size: 1.8vw;
+  }
+
+  .winner-cars {
+    display: flex;
+    gap: 5%;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .winner-cars img {
+    width: 47%;
   }
   
 }
