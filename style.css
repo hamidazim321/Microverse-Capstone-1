@@ -752,22 +752,22 @@ body {
     align-items: center;
     border-bottom: #d3d3d3 solid 3px;
   }
-  
+
   .CC-summit h1 {
     font-size: 4vw;
     text-align: center;
   }
-  
+
   .CC-summit p {
     font-size: 2vw;
     text-align: center;
     font-weight: 500;
   }
-  
+
   .CC-summit img {
     width: 50%;
   }
-  
+
 
   .winner-cars {
     display: flex;
