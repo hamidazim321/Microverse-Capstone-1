@@ -6,6 +6,7 @@ p,
 h1,
 h2,
 h3,
+h4,
 a,
 article {
   font-family: 'lato', sans-serif;
@@ -110,7 +111,7 @@ body {
 .Headline article {
   border: solid white;
   padding: 4%;
-  font-size: 4vw;
+  font-size: 3vw;
 }
 
 .h1-mobile {
@@ -129,17 +130,86 @@ body {
   margin-bottom: 0;
 }
 
+#location {
+  margin-top: 2px;
+  font-size: 5vw;
+}
+
 .Headline p {
   margin-bottom: 0;
   font-size: 5vw;
 }
 
-.location {
-  margin-top: 0;
-}
-
 .bg-light {
   background-color: #d3d3d3;
+}
+
+.main-program {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #272a31;
+  gap: 2vh;
+  padding: 2%;
+}
+
+.main-program-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.main-program-title-underline {
+  background-color: #ec5242;
+  width: 30%;
+  padding: 1px;
+  display: block;
+  opacity: 50%;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 4%;
+  background-color: #353a44;
+}
+
+.card-header {
+  width: 20%;
+}
+
+.card-title {
+  width: 20%;
+}
+
+.card-title span {
+  font-family: 'lato', sans-serif;
+  font-weight: 600;
+}
+
+.card-body {
+  width: 50%;
+  padding: 0;
+}
+
+.card-content {
+  font-size: 3vw;
+  color: white;
+  margin: 0;
+}
+
+.main-program-btn {
+  margin: 5%;
+  padding: 5%;
+  background-color: #ec5242;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  font-family: 'lato', sans-serif;
+  font-size: 4vw;
 }
 
 @media only screen and (min-width: 768px) {
@@ -155,6 +225,50 @@ body {
     display: flex;
     list-style: none;
     align-items: center;
+  }
+
+  .Headline {
+    padding: 10% 20% 10% 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .Headline article {
+    border: solid white;
+    padding: 4%;
+    font-size: 1.8vw;
+    width: 70%;
+  }
+  
+  .h1-mobile {
+    font-size: 7vw;
+  }
+  
+  .h2-mobile {
+    font-size: 3vw;
+  }
+  
+  .Headline h1 {
+    margin-top: 0;
+  }
+  
+  .Headline h2 {
+    margin-bottom: 0;
+  }
+  
+  #location {
+    margin-top: 2px;
+    font-size: 2vw;
+  }
+  
+  .Headline p {
+    margin-bottom: 0;
+    font-size: 5vw;
+  }
+  
+  .bg-light {
+    background-color: #d3d3d3;
   }
 
   .gap-close {
@@ -221,4 +335,62 @@ body {
   .Navbar {
     position: fixed;
   }
+
+  .main-program {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #272a31;
+    gap: 2vh;
+    padding: 2%;
+  }
+  
+  .main-program-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .main-program-title-underline {
+    background-color: #ec5242;
+    width: 30%;
+    padding: 1px;
+    display: block;
+    opacity: 50%;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 4%;
+    background-color: #353a44;
+  }
+  
+  .card-header {
+    width: 20%;
+  }
+  
+  .card-title {
+    width: 20%;
+  }
+  
+  .card-title span {
+    font-family: 'lato', sans-serif;
+    font-weight: 600;
+  }
+  
+  .card-body {
+    width: 50%;
+    padding: 0;
+  }
+  
+  .card-content {
+    font-size: 3vw;
+    color: white;
+    margin: 0;
+  }
+  
 }
