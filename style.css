@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: 'Cocogoose Pro Letterpress';
+  src: url('fonts/cocogoose-pro.letterpress.ttf');
+}
+
 p,
 h1,
 h2,
@@ -111,10 +116,18 @@ body {
   background-size: cover;
 }
 
+
+.Headline-title {
+  font-family: 'Cocogoose Pro Letterpress', sans-serif;
+  color: rgb(153, 17, 17);
+}
+
 .Headline article {
-  border: solid white;
   padding: 4%;
   font-size: 3vw;
+  color: white;
+  font-weight: 600;
+  background-color:rgba(151, 5, 151, 0.5);
 }
 
 .h1-mobile {
@@ -151,9 +164,10 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #272a31;
   gap: 2vh;
   padding: 2%;
+  background-image: url('Images/Program-bg.png');
+  background-repeat: repeat;
 }
 
 .main-program-title {
@@ -171,15 +185,6 @@ body {
   opacity: 50%;
 }
 
-.card {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-  padding: 4%;
-  background-color: #353a44;
-}
-
 .cards {
   display: flex;
   flex-direction: column;
@@ -187,8 +192,23 @@ body {
   gap: 2vh;
 }
 
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 4%;
+  background-color: rgba(53, 58, 68, 0.3);
+  width: 100%;
+}
+
+
 .card-header {
   width: 20%;
+}
+
+.card-header img {
+  width: 100%;
 }
 
 .card-title {
@@ -198,6 +218,7 @@ body {
 .card-title span {
   font-family: 'lato', sans-serif;
   font-weight: 600;
+  font-size: 3vw;
 }
 
 .card-body {
@@ -250,12 +271,19 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  .Headline-title {
+    font-family: 'Cocogoose Pro Letterpress', sans-serif;
+    color: rgb(153, 17, 17);
+  }
   
   .Headline article {
-    border: solid white;
     padding: 4%;
     font-size: 1.8vw;
     width: 70%;
+    color: white;
+    font-weight: 600;
+    background-color:rgba(151, 5, 151, 0.5);
   }
   
   .h1-mobile {
@@ -389,28 +417,40 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    gap: 5%;
     padding: 2%;
-    background-color: #353a44;
+    width: 25%;
+    height: 200px;
   }
   
   .card-header {
     width: fit-content;
+    height: 20%;
+    height: auto;
+  }
+
+  .card-header img {
+    height: 60px;
   }
   
   .card-title {
     width: fit-content;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   
   .card-title span {
     font-family: 'lato', sans-serif;
-    font-size: 2vw;
-    font-weight: 600;
+    font-size: 1.3vw;
+    font-weight: 500;
   }
   
   .card-body {
     width: fit-content;
     padding: 0;
+    height: 60%;
   }
   
   .card-content {
