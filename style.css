@@ -122,7 +122,7 @@ body {
   color: rgb(153, 17, 17);
 }
 
-.Headline article {
+.Headline article, .About-Headline article {
   padding: 4%;
   font-size: 3vw;
   color: white;
@@ -353,24 +353,54 @@ body {
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  margin-top: 5%;
+}
+
+.partners-logos img {
+  width: 20%
 }
 
 .Home-footer {
   display: flex;
   align-items: center;
   padding: 3% 5%;
-  gap: 10px;
+  gap: 50px;
 }
 
-.host span {
-  font-family: 'Cocogoose Pro Letterpress', sans-serif;
-  font-size: 4vw;
+.host {
+  width: 40%;
+}
+
+.host img {
+  width: 100%;
 }
 
 .host-title span {
-  font-size: 3vw;
+  font-size: 2vw;
   font-weight: 600;
   font-family: 'lato', sans-serif;
+}
+
+.About-Headline {
+  padding: 15% 5%;
+  background-image: url('Images/car-mobile.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.About-Headline-title {
+  font-family: 'Cocogoose Pro Letterpress', sans-serif;
+  color: rgb(153, 17, 17);
+}
+
+.CC-summit {
+  padding: 5% 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 
@@ -670,6 +700,25 @@ body {
   
   .partners-logos {
     margin-top: 50px;
+  }
+
+  .About-Headline {
+    padding: 10% 20% 10% 10%;
+    background-image: url('Images/car-desktop\ \(2\).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .About-Headline article {
+    padding: 4%;
+    font-size: 1.8vw;
+    color: white;
+    font-weight: 600;
+    background-color:rgba(151, 5, 151, 0.5);
+  }
+
+  .About-Headline a {
+    font-size: 1.8vw;
   }
   
 }
