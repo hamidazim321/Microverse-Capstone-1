@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="Navbar">
+    <div class="nav-signin bg-dark d-flex hideOnMobile-f">
+      <ul class="nav-ul gap-close">
+        <li><a href="#" class="fs-medium"><i class="fa fa-facebook fc-white fs-medium"></a></i></li>
+        <li><a href="#" class="fs-medium"><i class="fa fa-twitter fc-white fs-medium"></a></i></li>
+        <li><a href="#" class="fc-white fs-small no-style">Logout</a></li>
+        <li><a href="#" class="fc-white fs-small no-style">Mypage</a></li>
+        <li><a href="#" class="fc-white fs-small no-style">Korean</a></li>
+      </ul>
+    </div>
+    <div class="nav-items d-flex align-center">
+      <button type="button" id="Menu-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+      <div class="nav-brand">
+        <a href="index.html"><img src="Images/logo.jpg" class="hideOnMobile-f logo" alt="Retro Car Show Logo"></img></a>
+      </div>
+      <div class="nav-links d-right" id="nav-options">
+        <ul class="nav-ul Mobile-Menu gap-wide display-none" id="mobile-Menu">
+          <li class='d-right'><a href="#" class="hideOnDesktop-I no-style fc-dark" id="close-menu">&times;</a></li>
+          <li><a class="fc-dark fs-medium fc-dark no-style" href="index.html">Home</a></li>
+          <li><a class="fc-dark fs-medium fc-dark no-style" href="index.html#Program">Program</a></li>
+          <li><a class="fc-dark fs-medium fc-dark no-style" href="index.html#Guest-Container">Join</a></li>
+          <li><a class="fc-dark fs-medium fc-dark no-style" href="index.html#Sponsor">Sponsor</a></li>
+          <li><a class="fc-dark fs-medium fc-dark no-style" href="#">News</a></li>
+          <li><a class="fc-orange fs-medium padded-border no-style" href="#">CC Campaign</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="About-Headline">
+    <p class="Headline-greeting">Hello! Car Enthusiasts</p>
+    <h1 class="h1-mobile About-Headline-title">Miami Vintage Car Show</h1>
+    <article>
+      Welcome to the Miami Vintage Car Show, where automotive 
+      nostalgia comes to life. Step into a world of classic 
+      beauty and timeless elegance as we showcase an exceptional 
+      collection of vintage cars from different eras. Immerse yourself 
+      in the rich history and artistry of these remarkable automobiles, 
+      and join us for a memorable experience that celebrates the enduring 
+      allure of vintage cars in the heart of Miami.
+    </article>
+    <h3 class="h3 fc-white">Contact Us:</h3>
+    <a href="#" class="fc-white">MiamiVintage@gmail.com</a>
+  </section>
+
+  <section class="CC-summit">
+    <h1 class="fc-dark">Miami Vintage Car Show</h1>
+    <span class="title-underline"></span>
+    <p>The logo of Retro Car Club was decided through the logo competition from
+      8 june to 7 july
+    </p>
+    <img src="Images/logo.jpg" alt="Retro Cars logo">
+  </section>
+
+  <section class="CC-summit bg-light">
+    <h1 class="fc-dark">Hall Of Fame</h1>
+    <span class="title-underline"></span>
+    <p>Take a Look at the last 2 winner cars of Miami Vintage Car Show</p>
+    <div class="winner-cars">
+      <div class="car-img">
+        <div class="car-name">
+          <p class="fc-white">2023 <br> <span>Ford Mustang</span></p>
+        </div>
+      </div>
+      <div class="car-img">
+        <div class="car-name">
+          <p class="fc-white">2023 <br> <span>Ford Mustang</span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="Home-footer bg-dark">
+    <div class="host">
+      <img src="Images/cc-logo-white.png" alt="Creative Commons">
+    </div>
+    <div class="host-title">
+      <span class="fc-white">2015 Creative Commons Korea Some Rights Reserved</span>
+    </div>
+  </footer>
+
+
+  <script src="About.js" type="module"></script>
+</body>
+</html>
