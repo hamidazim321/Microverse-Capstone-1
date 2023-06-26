@@ -26,9 +26,9 @@
 - [📝 License](#license)
 
 
-# 📖 [My Portfolio] <a name="about-project"></a>
+# 📖 [Vintage Car Show] <a name="about-project"></a>
 
-**My Portfolio**  is a Microverse Project that starts in the Module 1 of the Micorverse Full-Stack Program and continues in several weeks of the program.
+**Vintage Car Show** is the capstone project of Module 1 in Microverse Full Stack Program.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -39,6 +39,7 @@
   <ul>
     <li><a href="https://html5.org">HTML</a></li>
     <li><a href="https://www.w3.org/Style/CSS/Overview.en.html">CSS</a></li>
+    <li><a href="https://www.javascript.com/">JavaScript</a></li>
   </ul>
 </details>
 
@@ -60,8 +61,8 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Designed for mobile screen-size**
-- **Uses linters to automatically check code standards**
+- **Responsive on different screen sizes**
+- **is a 2 pages website**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -145,7 +146,7 @@ You can deploy this project using Github Pages
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Will be updated to be responsive on different screen sizes]**
+- [ ] **[Will try to add some more user interactivity using JS]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -164,7 +165,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project feel free to clone it and use it in your own projects and follow the author on twitter
+If you like this project feel free to clone it and use it in your own projects and follow the author on Twitter
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
