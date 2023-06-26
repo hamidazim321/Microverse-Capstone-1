@@ -122,11 +122,20 @@ body {
   background-size: cover;
 }
 
-.Headline-title {
-  font-family: 'Cocogoose Pro Letterpress', sans-serif;
-  color: rgb(153, 17, 17);
+.Headline-greeting {
+  color: #8f0f01;
   margin-bottom: 0;
   font-size: 5vw;
+}
+
+.Headline-title {
+  font-family: 'Cocogoose Pro Letterpress', sans-serif;
+  margin-bottom: 0;
+  font-size: 5vw; 
+  background: url('Images/Headline-bg.jpg') repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .Headline article,
@@ -397,8 +406,11 @@ body {
 
 .About-Headline-title {
   font-family: 'Cocogoose Pro Letterpress', sans-serif;
-  color: rgb(153, 17, 17);
   margin-top: 0;
+  background: url('Images/Headline-bg.jpg') repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .CC-summit {
@@ -424,17 +436,42 @@ body {
   width: 80%;
 }
 
+
 .winner-cars {
   display: flex;
+  gap: 5%;
+  flex-direction: row;
+  align-items: center;
+  width: 320px;
+  height: 105px;
+}
+
+.car-img {
+  width: 320px;
+  height: 105px;
+  background-image: url('Images/car-desktop.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.car-name {
+  display: flex;
   flex-direction: column;
-  gap: 30px;
   justify-content: center;
+  background-color: rgba(172, 32, 17, 0.5);
+  position: relative;
+  height: 100%;
 }
 
-.winner-cars img {
-  width: 100%;
+.car-name p {
+  font-weight: 600;
+  font-size: medium;
 }
 
+.car-name p span {
+  font-weight: normal;
+  font-size: small;
+}
 @media only screen and (min-width: 768px) {
   .logo {
     width: 40px;
@@ -744,8 +781,11 @@ body {
 
   .About-Headline-title {
     font-family: 'Cocogoose Pro Letterpress', sans-serif;
-    color: rgb(153, 17, 17);
     text-align: center;
+    background: url('Images/Headline-bg.jpg') repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
   }
 
   .About-Headline article {
@@ -784,9 +824,34 @@ body {
     gap: 5%;
     flex-direction: row;
     align-items: center;
+    width: 650px;
+    height: 200px;
   }
 
-  .winner-cars img {
-    width: 47%;
+  .car-img {
+    width: 650px;
+    height: 200px;
+    background-image: url('Images/car-desktop.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
+
+  .car-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(172, 32, 17, 0.5);
+    position: relative;
+  }
+
+  .car-name p {
+    font-weight: 600;
+    font-size: large;
+  }
+
+  .car-name p span {
+    font-weight: normal;
+    font-size: medium;
+  }
+
 }
