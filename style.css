@@ -131,7 +131,7 @@ body {
 .Headline-title {
   font-family: 'Cocogoose Pro Letterpress', sans-serif;
   margin-bottom: 0;
-  font-size: 5vw; 
+  font-size: 5vw;
   background: url('Images/Headline-bg.jpg') repeat;
   background-clip: text;
   -webkit-background-clip: text;
@@ -436,7 +436,6 @@ body {
   width: 80%;
 }
 
-
 .winner-cars {
   display: flex;
   gap: 5%;
@@ -472,6 +471,7 @@ body {
   font-weight: normal;
   font-size: small;
 }
+
 @media only screen and (min-width: 768px) {
   .logo {
     width: 40px;
@@ -853,5 +853,4 @@ body {
     font-weight: normal;
     font-size: medium;
   }
-
 }
