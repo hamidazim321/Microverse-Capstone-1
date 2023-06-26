@@ -10,7 +10,7 @@ function LoadMenu() {
     });
 
     MenuOptions.forEach((li) => {
-      li.addEventListener('click', () => {
+      li.addEventListener('click', (event) => {
         navMenu.classList.add('display-none');
       });
     });

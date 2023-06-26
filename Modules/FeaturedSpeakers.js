@@ -80,29 +80,31 @@ const speakersContainer = `<div class="speaker">
 let counter = Guests.length - 1;
 const MoreButton = mainContainer.querySelector('.See-more');
 
-function LoadGuestsMobile() {
-  const format = document.createElement('div');
-  format.classList.add('speakersContainer');
+function LoadGuestsMobile(desktop) {
+    if (window.innerWidth < 768 || desktop){
+    const format = document.createElement('div');
+    format.classList.add('speakersContainer');
 
-  format.innerHTML = speakersContainer;
+    format.innerHTML = speakersContainer;
 
-  const speakers = format.querySelectorAll('.speaker');
-  speakers.forEach((speaker) => {
-    const image = speaker.querySelector('.speaker-img');
-    const title = speaker.querySelector('.speaker-title');
-    const status = speaker.querySelector('.speaker-status');
-    const name = speaker.querySelector('.speaker-name');
+    const speakers = format.querySelectorAll('.speaker');
+    speakers.forEach((speaker) => {
+      const image = speaker.querySelector('.speaker-img');
+      const title = speaker.querySelector('.speaker-title');
+      const status = speaker.querySelector('.speaker-status');
+      const name = speaker.querySelector('.speaker-name');
 
-    image.src = Guests[counter].image;
-    title.textContent = Guests[counter].title;
-    status.textContent = Guests[counter].specialty;
-    name.textContent = Guests[counter].name;
-    counter -= 1;
-  });
-  mainContainer.insertBefore(format, MoreButton);
-  if (counter < 0) {
-    mainContainer.removeChild(MoreButton);
-  }
+      image.src = Guests[counter].image;
+      title.textContent = Guests[counter].title;
+      status.textContent = Guests[counter].specialty;
+      name.textContent = Guests[counter].name;
+      counter -= 1;
+    });
+    mainContainer.insertBefore(format, MoreButton);
+    if (counter < 0) {
+      mainContainer.removeChild(MoreButton);
+    }
+}
 }
 function LoadMore() {
   MoreButton.addEventListener('click', () => {
@@ -111,8 +113,11 @@ function LoadMore() {
 }
 
 function LoadGuestsDesktop() {
-  for (let count = 0; count < Guests.length / 2; count += 1) {
-    LoadGuestsMobile();
+  if (window.innerWidth > 767 || !counter < 0){
+    for (let count = ((Guests.length - counter)/2); count < Guests.length / 2; count += 1) {
+      LoadGuestsMobile(true);
+      console.log
+    }
   }
 }
 
