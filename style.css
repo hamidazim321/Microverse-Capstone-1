@@ -455,7 +455,7 @@ body {
   }
 
   .Headline {
-    padding: 10% 20% 10% 10%;
+    padding: 8% 20% 8% 8%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -490,7 +490,7 @@ body {
   }
 
   #location {
-    margin-top: 2px;
+    margin-top: auto;
     font-size: 2vw;
   }
 

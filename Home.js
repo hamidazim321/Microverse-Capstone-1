@@ -11,4 +11,3 @@ window.addEventListener('resize', () => {
   LoadMenu();
   LoadGuestsDesktop();
 });
-

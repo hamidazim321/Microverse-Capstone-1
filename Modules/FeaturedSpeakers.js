@@ -81,7 +81,7 @@ let counter = Guests.length - 1;
 const MoreButton = mainContainer.querySelector('.See-more');
 
 function LoadGuestsMobile(desktop) {
-    if (window.innerWidth < 768 || desktop){
+  if (window.innerWidth < 768 || desktop) {
     const format = document.createElement('div');
     format.classList.add('speakersContainer');
 
@@ -104,7 +104,7 @@ function LoadGuestsMobile(desktop) {
     if (counter < 0) {
       mainContainer.removeChild(MoreButton);
     }
-}
+  }
 }
 function LoadMore() {
   MoreButton.addEventListener('click', () => {
@@ -113,10 +113,9 @@ function LoadMore() {
 }
 
 function LoadGuestsDesktop() {
-  if (window.innerWidth > 767 || !counter < 0){
-    for (let count = ((Guests.length - counter)/2); count < Guests.length / 2; count += 1) {
+  if (window.innerWidth > 767 || !counter < 0) {
+    for (let count = ((Guests.length - counter) / 2); count < Guests.length / 2; count += 1) {
       LoadGuestsMobile(true);
-      console.log
     }
   }
 }
