@@ -51,7 +51,7 @@ const Guests = [
 
 const speakersContainer = `<div class="speaker">
 <div class="speaker-header">
-  <img src="" class="speaker-img">
+  <img src="" class="speaker-img" alt="Guest">
 </div>
 <div class="speaker-body">
   <h4 class="h4 speaker-name"></h4>
@@ -65,7 +65,7 @@ const speakersContainer = `<div class="speaker">
 
 <div class="speaker">
 <div class="speaker-header">
-  <img src="" class="speaker-img">
+  <img src="" class="speaker-img" alt="Guest">
 </div>
 <div class="speaker-body">
   <h4 class="h4 speaker-name"></h4>
